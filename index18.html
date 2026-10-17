@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors Game</title>
+   <link rel="stylesheet" href="index18.css">
+</head>
+<body>
+
+    <header>
+        <h1>
+            <span id="rock">Rock. </span>
+            <span id="paper">Paper. </span>
+            <span id="scissors">Scissors.</span>
+        </h1>
+    </header>
+
+    <div id="board-label">Score</div>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">You</div>
+        <div id="cpu-label" class="badge">CPU</div>
+
+        <span id="user-score">0</span>:<span id="cpu-score">0</span>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="rock.png" alt="Rock" height="30" width="30">
+        </div>
+
+        <div class="choice" id="p">
+            <img src="paper.png" alt="Paper" height="30" width="30">
+        </div>
+
+        <div class="choice" id="s">
+            <img src="scissors.png" alt="Scissors" height="30" width="30">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="result">
+        <p></p>
+    </div>
+
+    <br><br>
+
+    <script src="index18.js"></script>
+
+</body>
+</html>
